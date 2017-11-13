@@ -9,11 +9,11 @@ public class webdriverexamples {
 		System.setProperty("webdriver.chrome.driver", "/Users/patrickvaras/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.facebook.com");
-		driver.findElement(By.linkText("Forgot account?")).click();
-		//driver.findE//lement(By.xpath("//*[@id='gb_70']")).click();
-		//driver.findElement(By.xpath("//*[@id='email']")).sendKeys("varaspj@gmail.com");
-		//driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("SnoopyCunt");
-		//driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
+		//driver.findElement(By.linkText("Forgot account?")).click();
+		//driver.findElement(By.xpath("//*[@id='gb_70']")).click();
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("varaspj@gmail.com");
+		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("SnoopyCunt");
+		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
 		
 		//driver.findElement(By.xpath("//*[@id="p_lt_ctl11_pageplaceholder_p_lt_ctl01_LogIn_txtPassword"]")).sendKeys("amandav3");
 		//driver.findElement(By.xpath("//*[@id='p_lt_ctl11_pageplaceholder_p_lt_ctl01_LogIn_btnSubmit']")).click();
