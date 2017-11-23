@@ -6,16 +6,16 @@ public class webdriverexamples {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "/Users/patrickvaras/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/patricxxxxxxx/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.facebook.com");
 		//driver.findElement(By.linkText("Forgot account?")).click();
 		//driver.findElement(By.xpath("//*[@id='gb_70']")).click();
-		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("varaspj@gmail.com");
-		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("SnoopyCunt");
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("xxxx");
+		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("xxxx");
 		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
 		
-		//driver.findElement(By.xpath("//*[@id="p_lt_ctl11_pageplaceholder_p_lt_ctl01_LogIn_txtPassword"]")).sendKeys("amandav3");
+		//driver.findElement(By.xpath("//*[@id="p_lt_ctl11_pageplaceholder_p_lt_ctl01_LogIn_txtPassword"]")).sendKeys("xxxxxx");
 		//driver.findElement(By.xpath("//*[@id='p_lt_ctl11_pageplaceholder_p_lt_ctl01_LogIn_btnSubmit']")).click();
 		
 		//System.out.println(driver.getTitle());
